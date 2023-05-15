@@ -8,7 +8,7 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/controlpanel/version)](https://packagist.org/packages/laravel-enso/controlpanel)
 <!--/h-->
 
-This package pulls data from the [Control Panel API](https://github.com/laravel-enso/ControlPanelApi) package, running on a [Laravel Enso](https://github.com/laravel-enso/Enso) app.
+This package pulls data from the [Control Panel API](https://github.com/laravel-enso/ControlPanelApi) package, running on a [Laravel Liberu](https://github.com/laravel-enso/Liberu) app.
 
 ### Features
 

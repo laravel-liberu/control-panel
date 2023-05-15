@@ -1,36 +1,36 @@
 {
-    "name": "cgdsoftware/control-panel",
-    "description": "A control panel that aggregates, controls and displays statistics from other cgdsoftware apps",
+    "name": "laravel-liberu/control-panel",
+    "description": "A control panel that aggregates, controls and displays statistics from other laravel-liberu apps",
     "type": "project",
     "require": {
         "guzzlehttp/guzzle": "^7.0",
-        "cgdsoftware/core": "^8.0",
-        "cgdsoftware/enums": "^2.0",
-        "cgdsoftware/forms": "^4.0",
-        "cgdsoftware/helpers": "^2.0",
-        "cgdsoftware/permissions": "^5.0",
-        "cgdsoftware/migrator": "^2.0",
-        "cgdsoftware/control-panel-common": "^2.0",
-        "cgdsoftware/tables": "^4.0"
+        "laravel-liberu/core": "^8.0",
+        "laravel-liberu/enums": "^2.0",
+        "laravel-liberu/forms": "^4.0",
+        "laravel-liberu/helpers": "^2.0",
+        "laravel-liberu/permissions": "^5.0",
+        "laravel-liberu/migrator": "^2.0",
+        "laravel-liberu/control-panel-common": "^2.0",
+        "laravel-liberu/tables": "^4.0"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         },
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         },
         {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
-            "homepage": "https://cgdsoftware.com",
+            "homepage": "https://laravel-liberu.com",
             "role": "Developer"
         }
     ],
