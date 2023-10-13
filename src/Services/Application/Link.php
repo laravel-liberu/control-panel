@@ -33,7 +33,7 @@ class Link implements Contract
 
     public function icon(): array
     {
-        return ['fab', 'enso'];
+        return ['fab', 'liberu'];
     }
 
     public function order(): int

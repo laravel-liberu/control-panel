@@ -3,7 +3,7 @@
 namespace LaravelLiberu\ControlPanel\Services\Sentry;
 
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanel\Services\Sentry\Sensors\Events;
+use LaravelLiberu\ControlPanel\Services\Sentry\Sliberurs\Events;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract
@@ -22,7 +22,7 @@ class Group implements Contract
         return 'Errors';
     }
 
-    public function sensors(): array
+    public function sliberurs(): array
     {
         return [new Events($this->api)];
     }

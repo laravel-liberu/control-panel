@@ -24,7 +24,7 @@ class Link implements Contract
 
     public function url(): string
     {
-        return  Config::get('enso.control-panel.sentry.url')
+        return  Config::get('liberu.control-panel.sentry.url')
             ."/{$this->application->sentry_project_uri}";
     }
 

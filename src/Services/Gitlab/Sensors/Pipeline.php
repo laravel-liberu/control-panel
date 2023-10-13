@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelLiberu\ControlPanel\Services\Gitlab\Sensors;
+namespace LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs;
 
 use Illuminate\Support\Str;
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanelCommon\Contracts\Sensor;
+use LaravelLiberu\ControlPanelCommon\Contracts\Sliberur;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
-class Pipeline extends IdProvider implements Sensor
+class Pipeline extends IdProvider implements Sliberur
 {
     public function __construct(private Api $api)
     {

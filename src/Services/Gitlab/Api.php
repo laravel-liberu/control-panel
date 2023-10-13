@@ -42,12 +42,12 @@ class Api extends ApiResponse
 
     private function url(string $uri): string
     {
-        return Config::get('enso.control-panel.gitlab.url')."/{$uri}";
+        return Config::get('liberu.control-panel.gitlab.url')."/{$uri}";
     }
 
     private function headers(): array
     {
-        return ['Private-Token' => Config::get('enso.control-panel.gitlab.token')];
+        return ['Private-Token' => Config::get('liberu.control-panel.gitlab.token')];
     }
 
     private function params(): array

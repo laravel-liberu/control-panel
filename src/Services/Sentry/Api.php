@@ -30,12 +30,12 @@ class Api extends ApiResponse
 
     private function url(string $uri): string
     {
-        return Config::get('enso.control-panel.sentry.url')."/{$uri}";
+        return Config::get('liberu.control-panel.sentry.url')."/{$uri}";
     }
 
     private function headers(): array
     {
-        $token = Config::get('enso.control-panel.sentry.token');
+        $token = Config::get('liberu.control-panel.sentry.token');
 
         return ['Authorization' => "Bearer {$token}"];
     }

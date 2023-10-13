@@ -3,9 +3,9 @@
 namespace LaravelLiberu\ControlPanel\Services\Gitlab;
 
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Commit;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Issues;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Pipeline;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Commit;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Issues;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Pipeline;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract
@@ -24,7 +24,7 @@ class Group implements Contract
         return 'Repository';
     }
 
-    public function sensors(): array
+    public function sliberurs(): array
     {
         return [
             new Commit($this->api),

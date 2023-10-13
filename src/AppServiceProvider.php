@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->mergeConfigFrom(__DIR__.'/../config/control-panel.php', 'enso.control-panel');
+        $this->mergeConfigFrom(__DIR__.'/../config/control-panel.php', 'liberu.control-panel');
 
         return $this;
     }
@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
     private function publish()
     {
         $this->publishes([
-            __DIR__.'/../config' => config_path('enso'),
-        ], ['control-panel-config', 'enso-config']);
+            __DIR__.'/../config' => config_path('liberu'),
+        ], ['control-panel-config', 'liberu-config']);
     }
 }
