@@ -1,15 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Create;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Destroy;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Edit;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\ExportExcel;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Index;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\InitTable;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Store;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\TableData;
-use LaravelEnso\ControlPanel\Http\Controllers\Application\Update;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Create;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Destroy;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Edit;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\ExportExcel;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Index;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\InitTable;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Store;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\TableData;
+use LaravelLiberu\ControlPanel\Http\Controllers\Application\Update;
 
 Route::prefix('administration')
     ->as('administration.')

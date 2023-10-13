@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Sentry;
+namespace LaravelLiberu\ControlPanel\Services\Sentry;
 
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanel\Services\Sentry\Sensors\Events;
-use LaravelEnso\ControlPanelCommon\Contracts\Group as Contract;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanel\Services\Sentry\Sensors\Events;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract
 {

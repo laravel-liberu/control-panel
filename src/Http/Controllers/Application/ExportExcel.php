@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\Application;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\Application;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Tables\Builders\Application;
-use LaravelEnso\Tables\Traits\Excel;
+use LaravelLiberu\ControlPanel\Tables\Builders\Application;
+use LaravelLiberu\Tables\Traits\Excel;
 
 class ExportExcel extends Controller
 {

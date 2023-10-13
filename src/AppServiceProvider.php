@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanel;
+namespace LaravelLiberu\ControlPanel;
 
 use Illuminate\Support\ServiceProvider;
 

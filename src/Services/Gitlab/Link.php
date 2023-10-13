@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Gitlab;
+namespace LaravelLiberu\ControlPanel\Services\Gitlab;
 
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanelCommon\Contracts\Link as Contract;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanelCommon\Contracts\Link as Contract;
 
 class Link implements Contract
 {

@@ -37,14 +37,14 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\ControlPanel\\": "src/"
+            "LaravelLiberu\\ControlPanel\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\ControlPanel\\AppServiceProvider",
-                "LaravelEnso\\ControlPanel\\EnumServiceProvider"
+                "LaravelLiberu\\ControlPanel\\AppServiceProvider",
+                "LaravelLiberu\\ControlPanel\\EnumServiceProvider"
             ],
             "aliases": {}
         }

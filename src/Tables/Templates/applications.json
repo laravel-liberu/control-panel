@@ -24,7 +24,7 @@
             "meta": [
                 "sortable"
             ],
-            "enum": "LaravelEnso\\ControlPanel\\Enums\\ApplicationTypes"
+            "enum": "LaravelLiberu\\ControlPanel\\Enums\\ApplicationTypes"
         },
         {
             "label": "Order",

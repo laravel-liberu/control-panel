@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Enso;
 
-use LaravelEnso\ControlPanel\Contracts\EnsoApi;
+use LaravelLiberu\ControlPanel\Contracts\EnsoApi;
 
 class Enso extends BaseApi implements EnsoApi
 {

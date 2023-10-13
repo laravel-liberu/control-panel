@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Requests;
+namespace LaravelLiberu\ControlPanel\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use LaravelEnso\ControlPanel\Enums\ApplicationTypes;
-use LaravelEnso\Helpers\Traits\FiltersRequest;
+use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
+use LaravelLiberu\Helpers\Traits\FiltersRequest;
 
 class ValidateApplication extends FormRequest
 {

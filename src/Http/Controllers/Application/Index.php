@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\Application;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\Application;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Http\Resources\Application as Resource;
-use LaravelEnso\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Http\Resources\Application as Resource;
+use LaravelLiberu\ControlPanel\Models\Application;
 
 class Index extends Controller
 {

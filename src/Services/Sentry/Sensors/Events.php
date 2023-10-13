@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Sentry\Sensors;
+namespace LaravelLiberu\ControlPanel\Services\Sentry\Sensors;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanelCommon\Contracts\Sensor;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanelCommon\Contracts\Sensor;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Events extends IdProvider implements Sensor
 {

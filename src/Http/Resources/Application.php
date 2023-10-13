@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Resources;
+namespace LaravelLiberu\ControlPanel\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\ControlPanelCommon\Http\Resources\Link as Resource;
+use LaravelLiberu\ControlPanelCommon\Http\Resources\Link as Resource;
 
 class Application extends JsonResource
 {

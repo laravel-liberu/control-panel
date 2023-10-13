@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Enso;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Api
 {

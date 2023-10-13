@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\ControlPanel;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\ControlPanel;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Exceptions\Gitlab as Exception;
-use LaravelEnso\ControlPanel\Http\Responses\Gitlab as Response;
-use LaravelEnso\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Exceptions\Gitlab as Exception;
+use LaravelLiberu\ControlPanel\Http\Responses\Gitlab as Response;
+use LaravelLiberu\ControlPanel\Models\Application;
 
 class Gitlab extends Controller
 {

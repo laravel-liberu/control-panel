@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Envoyer;
+namespace LaravelLiberu\ControlPanel\Services\Envoyer;
 
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanelCommon\Contracts\Link as Contract;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanelCommon\Contracts\Link as Contract;
 
 class Link implements Contract
 {

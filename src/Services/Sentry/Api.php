@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Sentry;
+namespace LaravelLiberu\ControlPanel\Services\Sentry;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanel\Services\ApiResponse;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Services\ApiResponse;
 
 class Api extends ApiResponse
 {

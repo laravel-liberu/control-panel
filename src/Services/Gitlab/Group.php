@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Gitlab;
+namespace LaravelLiberu\ControlPanel\Services\Gitlab;
 
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanel\Services\Gitlab\Sensors\Commit;
-use LaravelEnso\ControlPanel\Services\Gitlab\Sensors\Issues;
-use LaravelEnso\ControlPanel\Services\Gitlab\Sensors\Pipeline;
-use LaravelEnso\ControlPanelCommon\Contracts\Group as Contract;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Commit;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Issues;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensors\Pipeline;
+use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract
 {

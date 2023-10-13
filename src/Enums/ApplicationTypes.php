@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Enums;
+namespace LaravelLiberu\ControlPanel\Enums;
 
-use LaravelEnso\Enums\Services\Enum;
+use LaravelLiberu\Enums\Services\Enum;
 
 class ApplicationTypes extends Enum
 {

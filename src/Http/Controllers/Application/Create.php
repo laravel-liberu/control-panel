@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\Application;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\Application;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Forms\Builders\Application;
+use LaravelLiberu\ControlPanel\Forms\Builders\Application;
 
 class Create extends Controller
 {

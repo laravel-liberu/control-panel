@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\ControlPanel;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\ControlPanel;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Exceptions\Sentry as Exception;
-use LaravelEnso\ControlPanel\Http\Responses\Sentry as Response;
-use LaravelEnso\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Exceptions\Sentry as Exception;
+use LaravelLiberu\ControlPanel\Http\Responses\Sentry as Response;
+use LaravelLiberu\ControlPanel\Models\Application;
 
 class Sentry extends Controller
 {

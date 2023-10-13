@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel;
+namespace LaravelLiberu\ControlPanel;
 
-use LaravelEnso\ControlPanel\Enums\ApplicationTypes;
-use LaravelEnso\Enums\EnumServiceProvider as ServiceProvider;
+use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
+use LaravelLiberu\Enums\EnumServiceProvider as ServiceProvider;
 
 class EnumServiceProvider extends ServiceProvider
 {

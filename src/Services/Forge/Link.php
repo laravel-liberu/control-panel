@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Forge;
+namespace LaravelLiberu\ControlPanel\Services\Forge;
 
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanelCommon\Contracts\Link as Contract;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanelCommon\Contracts\Link as Contract;
 
 class Link implements Contract
 {

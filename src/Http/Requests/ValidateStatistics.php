@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Requests;
+namespace LaravelLiberu\ControlPanel\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use LaravelEnso\ControlPanel\Enums\ApplicationTypes;
+use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
 
 class ValidateStatistics extends FormRequest
 {

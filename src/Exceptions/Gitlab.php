@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Exceptions;
+namespace LaravelLiberu\ControlPanel\Exceptions;
 
-use LaravelEnso\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\EnsoException;
 
 class Gitlab extends EnsoException
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\Application;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\Application;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Forms\Builders\Application;
-use LaravelEnso\ControlPanel\Models\Application as Model;
+use LaravelLiberu\ControlPanel\Forms\Builders\Application;
+use LaravelLiberu\ControlPanel\Models\Application as Model;
 
 class Edit extends Controller
 {

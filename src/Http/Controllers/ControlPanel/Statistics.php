@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Controllers\ControlPanel;
+namespace LaravelLiberu\ControlPanel\Http\Controllers\ControlPanel;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\ControlPanel\Http\Requests\ValidateStatistics as Request;
-use LaravelEnso\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Http\Requests\ValidateStatistics as Request;
+use LaravelLiberu\ControlPanel\Models\Application;
 
 class Statistics extends Controller
 {

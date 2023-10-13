@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Gitlab\Sensors;
+namespace LaravelLiberu\ControlPanel\Services\Gitlab\Sensors;
 
 use Carbon\Carbon;
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanelCommon\Contracts\Sensor;
-use LaravelEnso\ControlPanelCommon\Services\IdProvider;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanelCommon\Contracts\Sensor;
+use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
 class Commit extends IdProvider implements Sensor
 {

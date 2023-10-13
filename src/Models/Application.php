@@ -1,20 +1,20 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Models;
+namespace LaravelLiberu\ControlPanel\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\ControlPanel\Contracts\LegacyApi;
-use LaravelEnso\ControlPanel\Enums\ApplicationTypes;
-use LaravelEnso\ControlPanel\Services\Application\Link as ApplicationLink;
-use LaravelEnso\ControlPanel\Services\Enso\Enso;
-use LaravelEnso\ControlPanel\Services\Enso\Legacy;
-use LaravelEnso\ControlPanel\Services\Envoyer\Link as EnvoyerLink;
-use LaravelEnso\ControlPanel\Services\Forge\Link as ForgeLink;
-use LaravelEnso\ControlPanel\Services\Gitlab\Api as GitlabApi;
-use LaravelEnso\ControlPanel\Services\Sentry\Api as SentryApi;
-use LaravelEnso\Files\Http\Resources\Collection;
-use LaravelEnso\Helpers\Traits\ActiveState;
-use LaravelEnso\Tables\Traits\TableCache;
+use LaravelLiberu\ControlPanel\Contracts\LegacyApi;
+use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
+use LaravelLiberu\ControlPanel\Services\Application\Link as ApplicationLink;
+use LaravelLiberu\ControlPanel\Services\Enso\Enso;
+use LaravelLiberu\ControlPanel\Services\Enso\Legacy;
+use LaravelLiberu\ControlPanel\Services\Envoyer\Link as EnvoyerLink;
+use LaravelLiberu\ControlPanel\Services\Forge\Link as ForgeLink;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Api as GitlabApi;
+use LaravelLiberu\ControlPanel\Services\Sentry\Api as SentryApi;
+use LaravelLiberu\Files\Http\Resources\Collection;
+use LaravelLiberu\Helpers\Traits\ActiveState;
+use LaravelLiberu\Tables\Traits\TableCache;
 
 class Application extends Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Enso;
 
 use Illuminate\Http\Client\Response;
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanel\Services\ApiResponse;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Services\ApiResponse;
 
 abstract class BaseApi extends ApiResponse
 {

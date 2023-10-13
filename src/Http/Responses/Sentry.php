@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Http\Responses;
+namespace LaravelLiberu\ControlPanel\Http\Responses;
 
 use Illuminate\Contracts\Support\Responsable;
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanel\Services\Sentry\Group;
-use LaravelEnso\ControlPanel\Services\Sentry\Link;
-use LaravelEnso\ControlPanelCommon\Http\Resources\Group as GroupResource;
-use LaravelEnso\ControlPanelCommon\Http\Resources\Link as LinkResource;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Services\Sentry\Group;
+use LaravelLiberu\ControlPanel\Services\Sentry\Link;
+use LaravelLiberu\ControlPanelCommon\Http\Resources\Group as GroupResource;
+use LaravelLiberu\ControlPanelCommon\Http\Resources\Link as LinkResource;
 
 class Sentry implements Responsable
 {

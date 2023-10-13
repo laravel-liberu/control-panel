@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services;
+namespace LaravelLiberu\ControlPanel\Services;
 
 use Illuminate\Http\Client\Response;
-use LaravelEnso\ControlPanel\Contracts\Api;
-use LaravelEnso\ControlPanel\Exceptions\ApiResponse as Exception;
+use LaravelLiberu\ControlPanel\Contracts\Api;
+use LaravelLiberu\ControlPanel\Exceptions\ApiResponse as Exception;
 
 abstract class ApiResponse implements Api
 {

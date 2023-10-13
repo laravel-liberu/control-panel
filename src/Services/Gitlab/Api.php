@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Gitlab;
+namespace LaravelLiberu\ControlPanel\Services\Gitlab;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
-use LaravelEnso\ControlPanel\Models\Application;
-use LaravelEnso\ControlPanel\Services\ApiResponse;
+use LaravelLiberu\ControlPanel\Models\Application;
+use LaravelLiberu\ControlPanel\Services\ApiResponse;
 
 class Api extends ApiResponse
 {

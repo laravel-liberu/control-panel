@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Contracts;
+namespace LaravelLiberu\ControlPanel\Contracts;
 
 interface LegacyApi
 {

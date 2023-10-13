@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Forms\Builders;
+namespace LaravelLiberu\ControlPanel\Forms\Builders;
 
-use LaravelEnso\ControlPanel\Enums\ApplicationTypes;
-use LaravelEnso\ControlPanel\Models\Application as Model;
-use LaravelEnso\Forms\Services\Form;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
+use LaravelLiberu\ControlPanel\Models\Application as Model;
+use LaravelLiberu\Forms\Services\Form;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Application
 {

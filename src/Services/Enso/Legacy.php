@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelEnso\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Enso;
 
-use LaravelEnso\ControlPanel\Contracts\LegacyApi;
+use LaravelLiberu\ControlPanel\Contracts\LegacyApi;
 
 class Legacy extends BaseApi implements LegacyApi
 {
