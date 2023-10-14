@@ -3,7 +3,7 @@
 namespace LaravelLiberu\ControlPanel\Services\Sentry;
 
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanel\Services\Sentry\Sliberurs\Events;
+use LaravelLiberu\ControlPanel\Services\Sentry\Sensorrs\Events;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract

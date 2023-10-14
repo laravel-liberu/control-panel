@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\ControlPanel\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class ApiResponse extends EnsoException
+class ApiResponse extends LiberuException
 {
     public static function error(int $code, string $message)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelLiberu\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Liberu;
 
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;

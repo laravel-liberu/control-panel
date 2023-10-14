@@ -2,7 +2,7 @@
 
 namespace LaravelLiberu\ControlPanel\Contracts;
 
-interface EnsoApi extends LegacyApi
+interface LiberuApi extends LegacyApi
 {
     public function actions(): array;
 

@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 use LaravelLiberu\ControlPanel\Contracts\LegacyApi;
 use LaravelLiberu\ControlPanel\Enums\ApplicationTypes;
 use LaravelLiberu\ControlPanel\Services\Application\Link as ApplicationLink;
-use LaravelLiberu\ControlPanel\Services\Enso\Enso;
-use LaravelLiberu\ControlPanel\Services\Enso\Legacy;
+use LaravelLiberu\ControlPanel\Services\Liberu\Liberu;
+use LaravelLiberu\ControlPanel\Services\Liberu\Legacy;
 use LaravelLiberu\ControlPanel\Services\Envoyer\Link as EnvoyerLink;
 use LaravelLiberu\ControlPanel\Services\Forge\Link as ForgeLink;
 use LaravelLiberu\ControlPanel\Services\Gitlab\Api as GitlabApi;
@@ -40,8 +40,8 @@ class Application extends Model
 
     public function api(array $request): LegacyApi
     {
-        return $this->type === ApplicationTypes::Enso
-            ? new Enso($this, $request)
+        return $this->type === ApplicationTypes::Liberu
+            ? new Liberu($this, $request)
             : new Legacy($this, $request);
     }
 

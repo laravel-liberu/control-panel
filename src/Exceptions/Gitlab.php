@@ -2,9 +2,9 @@
 
 namespace LaravelLiberu\ControlPanel\Exceptions;
 
-use LaravelLiberu\Helpers\Exceptions\EnsoException;
+use LaravelLiberu\Helpers\Exceptions\LiberuException;
 
-class Gitlab extends EnsoException
+class Gitlab extends LiberuException
 {
     public static function unregistered()
     {

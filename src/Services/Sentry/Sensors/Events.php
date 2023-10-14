@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelLiberu\ControlPanel\Services\Sentry\Sliberurs;
+namespace LaravelLiberu\ControlPanel\Services\Sentry\Sensorrs;
 
 use Illuminate\Support\Collection;
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanelCommon\Contracts\Sliberur;
+use LaravelLiberu\ControlPanelCommon\Contracts\Sensorr;
 use LaravelLiberu\ControlPanelCommon\Services\IdProvider;
 
-class Events extends IdProvider implements Sliberur
+class Events extends IdProvider implements Sensorr
 {
     public function __construct(private Api $api)
     {

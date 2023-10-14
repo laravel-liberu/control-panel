@@ -3,9 +3,9 @@
 namespace LaravelLiberu\ControlPanel\Services\Gitlab;
 
 use LaravelLiberu\ControlPanel\Contracts\Api;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Commit;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Issues;
-use LaravelLiberu\ControlPanel\Services\Gitlab\Sliberurs\Pipeline;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensorrs\Commit;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensorrs\Issues;
+use LaravelLiberu\ControlPanel\Services\Gitlab\Sensorrs\Pipeline;
 use LaravelLiberu\ControlPanelCommon\Contracts\Group as Contract;
 
 class Group implements Contract

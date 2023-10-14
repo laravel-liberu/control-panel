@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelLiberu\ControlPanel\Services\Enso;
+namespace LaravelLiberu\ControlPanel\Services\Liberu;
 
-use LaravelLiberu\ControlPanel\Contracts\EnsoApi;
+use LaravelLiberu\ControlPanel\Contracts\LiberuApi;
 
-class Enso extends BaseApi implements EnsoApi
+class Liberu extends BaseApi implements LiberuApi
 {
     public function statistics(): array
     {
